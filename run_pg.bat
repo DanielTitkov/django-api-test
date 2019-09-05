@@ -1,0 +1,1 @@
+docker run --rm --name pg -e POSTGRES_USER=golendar -e POSTGRES_PASSWORD=golendar -d -p 5432:5432 postgres
